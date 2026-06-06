@@ -150,7 +150,7 @@ streamlit run dashboard/burnout_dashboard.py  # launch dashboard
 
 > **Employee Burnout Risk Prediction System** - Built an end-to-end HR analytics ML pipeline (Python, Scikit-Learn, Streamlit) predicting employee burnout risk from 13+ workplace and lifestyle factors. Engineered composite wellbeing indices, delivered a Linear Regression model with full evaluation (MAE/RMSE/R2/CV), an interactive dashboard with a live risk calculator, automated PDF reporting, and 17 actionable HR recommendations.
 
-## Interview Questions & Answers
+## Q & A
 
 **Q: Why Linear Regression for this problem?**
 A: It is interpretable - each standardized coefficient maps directly to a business lever, which matters for HR buy-in. We also flag when its linear/zero-bounded assumptions break down.
@@ -168,5 +168,3 @@ A: Adjusted R2 penalizes extra predictors, and 5-fold cross-validation checks st
 A: Workload, Health, and Productivity-Efficiency indices combine correlated raw signals into stronger, monitorable KPIs that reduce noise and improve interpretability.
 
 ---
-
-*Generated artifacts (`burnout_model.pkl`, PDFs, plot PNGs) are produced by running the pipeline; the repository ships the code that creates them.*
