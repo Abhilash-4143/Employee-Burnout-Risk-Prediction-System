@@ -1,0 +1,35 @@
+============================================================
+MODEL EVALUATION REPORT
+============================================================
+Mean Absolute Error (MAE)            16.1798
+Mean Squared Error (MSE)            410.9618
+Root Mean Squared Error (RMSE)       20.2722
+R-squared                             0.0496
+Adjusted R-squared                   -0.0279
+CV R2 (mean)                          0.0548
+CV R2 (std)                           0.0647
+------------------------------------------------------------
+Reliability: Poor linear fit: likely due to zero-inflated target; consider Tweedie/two-part or tree-based models.
+============================================================
+
+MODEL EQUATION
+
+burnout_risk_score = 31.352 + 0.205*age - 0.137*years_experience + 1.380*weekly_work_hours + 1.390*meetings_per_week - 0.393*emails_sent_per_day - 0.671*projects_handled + 0.430*remote_days_per_month - 4.877*sleep_hours + 1.251*stress_level - 2.324*exercise_hours_week + 0.956*sick_leaves_year + 1.869*productivity_score + 0.121*workload_index - 0.500*health_index - 1.892*productivity_efficiency
+
+COEFFICIENT INTERPRETATION
+
+- A 1 std-dev rise in 'sleep_hours' decreases predicted burnout risk by 4.88 points.
+- A 1 std-dev rise in 'exercise_hours_week' decreases predicted burnout risk by 2.32 points.
+- A 1 std-dev rise in 'productivity_efficiency' decreases predicted burnout risk by 1.89 points.
+- A 1 std-dev rise in 'productivity_score' increases predicted burnout risk by 1.87 points.
+- A 1 std-dev rise in 'meetings_per_week' increases predicted burnout risk by 1.39 points.
+- A 1 std-dev rise in 'weekly_work_hours' increases predicted burnout risk by 1.38 points.
+- A 1 std-dev rise in 'stress_level' increases predicted burnout risk by 1.25 points.
+- A 1 std-dev rise in 'sick_leaves_year' increases predicted burnout risk by 0.96 points.
+- A 1 std-dev rise in 'projects_handled' decreases predicted burnout risk by 0.67 points.
+- A 1 std-dev rise in 'health_index' decreases predicted burnout risk by 0.50 points.
+- A 1 std-dev rise in 'remote_days_per_month' increases predicted burnout risk by 0.43 points.
+- A 1 std-dev rise in 'emails_sent_per_day' decreases predicted burnout risk by 0.39 points.
+- A 1 std-dev rise in 'age' increases predicted burnout risk by 0.21 points.
+- A 1 std-dev rise in 'years_experience' decreases predicted burnout risk by 0.14 points.
+- A 1 std-dev rise in 'workload_index' increases predicted burnout risk by 0.12 points.

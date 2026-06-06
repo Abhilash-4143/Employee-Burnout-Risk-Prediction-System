@@ -1,0 +1,14 @@
+============================================================
+PREPROCESSING REPORT
+============================================================
+Initial shape: (1000, 17)
+Detected target column: 'burnout_risk_score'
+Dropped identifier columns: ['employee_id']
+Duplicate rows removed: 0
+Missing values handled (median impute): 0
+NOTE: target is zero-inflated (16.3% exact zeros). Linear Regression may underperform at the lower bound; documented in EDA.
+Train/test split: 800 train / 200 test (80/20, seed=42)
+Features scaled with StandardScaler (fit on train only).
+Final feature count: 15
+Rows retained: 1000 / 1000
+============================================================
